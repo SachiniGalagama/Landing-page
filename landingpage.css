@@ -31,8 +31,6 @@ nav{
   display: flex;
   font-family: Montserrat;
   background-color: #C7F0D3;
-  align-items: center;
-  padding: 2px 20px;
   object-fit: cover;
 }
 
