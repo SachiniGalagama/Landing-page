@@ -34,7 +34,11 @@ nav{
   align-items:center
   object-fit: cover;
 }
-
+.brand-name{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
 .about-us{
   font-size: 18px;
   margin-left: 900px;
