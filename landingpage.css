@@ -28,11 +28,9 @@ background: #bfa58a86 ;
 }
 
 nav{
-  display: flex;
+
   font-family: Montserrat;
   background-color: #C7F0D3;
-  align-items:center
-  object-fit: cover;
 }
 .brand-name{
   font-size: 25px;
@@ -58,8 +56,14 @@ nav{
   border-radius: 50%;
   overflow: hidden;
   margin-left: 20px;
+  align-items: center;
 }
 
+.logo-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill ;
+}
 
 p{
   font-family:Montserrat;
