@@ -8,16 +8,30 @@
     <link rel="stylesheet" href="landingpage.css">
   </head>
   <body>
-    <nav>
+    <nav class='navbar navbar-expand-md'>
 
       <div class="logo-container">
         <img src="Liceria & Co..png">
-      </div>
-
+      </div> 
       <a class="brand-name">Pure Skin</a>
-      <a class="about-us">About</a>
-      <a class="Shop">Shop</a>
-      <a class="FAQ">FAQ</a>
+      
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#about-us" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#shop" class="nav-link">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a href="#FAQ" class="nav-link">FAQ</a>
+        </li>
+      </ul>
+    </div>
     </nav>
 
     <img class="image1" src="Fresh Moisture Lip and Eye Remover.jfif">
